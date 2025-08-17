@@ -1,0 +1,30 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "Nodemailer API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aashxx/mailer.git"
+  },
+  "author": "Aashir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aashxx/mailer/issues"
+  },
+  "homepage": "https://github.com/aashxx/mailer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
